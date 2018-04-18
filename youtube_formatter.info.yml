@@ -1,6 +1,6 @@
 name: YouTube Formatter
 type: module
-description: 'Generate Iframe YouTube from video id'
+description: 'field formatter for textfield to generate Iframe YouTube from video id'
 core: 8.x
 package: Custom
 dependencies:
