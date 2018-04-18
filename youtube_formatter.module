@@ -1,0 +1,23 @@
+<?php
+/**
+ * @file
+ * Defines simple YouTube formatter for the link field.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function youtube_formatter_theme()
+{
+    return array(
+        'youtube_link_formatter' => array(
+            'variables' => array(
+                'video_id' => NULL,
+                'height' => NULL,
+                'width' => NULL
+            ),
+        ),
+    );
+}
+
+

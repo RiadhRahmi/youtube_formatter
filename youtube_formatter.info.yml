@@ -1,0 +1,7 @@
+name: YouTube Formatter
+type: module
+description: 'Generate Iframe YouTube from video id'
+core: 8.x
+package: Custom
+dependencies:
+  - field

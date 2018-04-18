@@ -1,0 +1,10 @@
+field.formatter.settings.youtube_link:
+  type: mapping
+  label: 'FORMATTER Settings'
+  mapping:
+    width:
+      type: string
+      label: 'Width'
+    height:
+      type: string
+      label: 'Height'
